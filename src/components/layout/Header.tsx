@@ -23,7 +23,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <GdgLogo className="relative h-6 w-20" />
+          <GdgLogo className="h-6 w-20" />
           <span className="font-headline text-lg font-semibold tracking-tight">
             SnowScript
           </span>
@@ -60,7 +60,7 @@ export function Header() {
                   className="mb-8 flex items-center gap-2"
                   onClick={() => setSheetOpen(false)}
                 >
-                  <GdgLogo className="relative h-6 w-20" />
+                  <GdgLogo className="h-6 w-20" />
                   <span className="font-headline text-lg font-semibold">
                     SnowScript
                   </span>

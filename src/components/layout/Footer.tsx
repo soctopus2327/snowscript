@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="w-full border-t bg-primary/10">
       <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-6 py-8 md:flex-row md:px-8">
         <div className="flex items-center gap-3">
-          <GdgLogo className="relative h-8 w-24" />
+          <GdgLogo className="h-8 w-24" />
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} GDG. All rights reserved.
           </p>
