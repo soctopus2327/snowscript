@@ -4,7 +4,7 @@ import { prizes } from '@/lib/data';
 export default function PrizesPage() {
   return (
     <div className="bg-primary/10">
-      <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
+      <div className="container mx-auto px-6 py-16 md:px-8 md:py-24">
         <div className="text-center">
           <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl">
             Prizes & Recognition

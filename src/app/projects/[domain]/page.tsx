@@ -26,7 +26,7 @@ export default function ProjectDomainPage({ params }: ProjectDomainPageProps) {
 
   return (
     <div className="bg-background">
-      <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
+      <div className="container mx-auto px-6 py-16 md:px-8 md:py-24">
         <div className="text-center">
           <domain.icon className="mx-auto h-12 w-12 text-primary" />
           <h1 className="font-headline mt-4 text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl">

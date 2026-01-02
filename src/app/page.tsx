@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <section className="w-full bg-primary/10 py-20 md:py-32">
-        <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-4">
+        <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-6 md:grid-cols-2 md:px-8">
           <div className="space-y-6 text-center md:text-left">
             <div className="flex justify-center md:justify-start">
               <GdgLogo className="h-12 w-auto text-primary" />
@@ -41,7 +41,7 @@ export default function Home() {
               learning, and building amazing projects.
             </p>
           </div>
-          <div className="relative flex h-64 items-center justify-center rounded-lg border-2 border-dashed border-primary/50 bg-primary/5 md:h-96 overflow-hidden">
+          <div className="relative flex h-64 items-center justify-center rounded-lg border-0 border-dashed border-primary/50 bg-primary/5 md:h-96 overflow-hidden">
             <video
               className="absolute top-0 left-0 w-full h-full object-cover"
               autoPlay
@@ -58,7 +58,7 @@ export default function Home() {
         id="register"
         className="w-full bg-accent py-16 text-accent-foreground"
       >
-        <div className="container mx-auto flex flex-col items-center justify-center gap-4 px-4 text-center md:px-6">
+        <div className="container mx-auto flex flex-col items-center justify-center gap-4 px-6 text-center md:px-8">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
             Ready to Build?
           </h2>
@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       <section id="about" className="w-full py-16 md:py-24">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container mx-auto px-6 md:px-8">
           <Card className="overflow-hidden shadow-lg md:grid md:grid-cols-2">
             <div className="relative h-64 w-full md:h-auto">
               {aboutImage && (
@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       <section id="contribute" className="w-full bg-primary/10 py-16 md:py-24">
-        <div className="container mx-auto space-y-12 px-4 md:px-6">
+        <div className="container mx-auto space-y-12 px-6 md:px-8">
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               How to Contribute
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       <section id="timeline" className="w-full py-16 md:py-24">
-        <div className="container mx-auto px-4 md:px-6">
+        <div className="container mx-auto px-6 md:px-8">
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Event Timeline
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       <section id="faq" className="w-full bg-primary/10 py-16 md:py-24">
-        <div className="container mx-auto max-w-4xl px-4 md:px-6">
+        <div className="container mx-auto max-w-4xl px-6 md:px-8">
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Frequently Asked Questions
