@@ -26,7 +26,7 @@ export default function ProjectDomainPage({ params }: ProjectDomainPageProps) {
 
   return (
     <div className="bg-background">
-      <div className="container mx-auto px-6 py-16 md:px-8 md:py-24">
+      <div className="container mx-auto px-6 py-16 md:px-24 md:py-24">
         <div className="text-center">
           <domain.icon className="mx-auto h-12 w-12 text-primary" />
           <h1 className="font-headline mt-4 text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl">
@@ -40,7 +40,7 @@ export default function ProjectDomainPage({ params }: ProjectDomainPageProps) {
           {domain.projects.map((project) => (
             <Card
               key={project.name}
-              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-64"
             >
               <div className="flex h-full flex-col p-6">
                 <CardHeader className="p-0">

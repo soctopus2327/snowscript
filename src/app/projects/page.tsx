@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 export default function ProjectsPage() {
   return (
     <div className="bg-primary/10">
-      <div className="container mx-auto px-6 py-16 md:px-8 md:py-24">
+      <div className="container mx-auto px-6 py-16 md:px-24 md:py-24">
         <div className="text-center">
           <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl">
             Project Domains
@@ -20,7 +20,7 @@ export default function ProjectsPage() {
           {projectDomains.map((domain) => (
             <Card
               key={domain.slug}
-              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-64"
             >
               <CardHeader className="flex-row items-center gap-4">
                 <domain.icon className="h-8 w-8 text-primary" />
