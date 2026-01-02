@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -36,35 +37,27 @@ export default function ProjectDomainPage({ params }: ProjectDomainPageProps) {
             Find an issue and make your first contribution.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {domain.projects.map((project) => (
             <Card
               key={project.name}
-              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-64"
+              className="flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
-              <div className="flex h-full flex-col p-6">
-                <CardHeader className="p-0">
-                  <CardTitle className="font-headline text-xl font-bold">
-                    {project.name}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-0 pt-4 flex-grow">
-                  {/* The description is hidden by default and shown on hover */}
-                  <div className="relative h-full">
-                     <p className="text-muted-foreground transition-opacity duration-300 group-hover:opacity-0">Hover to see details</p>
-                    <div className="absolute inset-0 flex flex-col items-start justify-center bg-card p-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                      <p className="text-muted-foreground">
-                        {project.description}
-                      </p>
-                       <Button asChild size="sm" className="mt-4">
-                        <Link href={project.contributeUrl}>
-                          Contribute <ArrowRight className="ml-2 h-4 w-4" />
-                        </Link>
-                      </Button>
-                    </div>
-                  </div>
-                </CardContent>
-              </div>
+              <CardHeader>
+                <CardTitle className="font-headline text-xl font-bold">
+                  {project.name}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-grow flex-col justify-between">
+                <p className="text-muted-foreground mb-4">
+                  {project.description}
+                </p>
+                <Button asChild size="sm" className="mt-auto w-full">
+                  <Link href={project.contributeUrl}>
+                    Contribute <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </CardContent>
             </Card>
           ))}
         </div>
