@@ -20,7 +20,7 @@ export default function ProjectsPage() {
           {projectDomains.map((domain) => (
             <Card
               key={domain.slug}
-              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-64"
+              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-80"
             >
               <CardHeader className="flex-row items-center gap-4">
                 <domain.icon className="h-8 w-8 text-primary" />
@@ -28,7 +28,7 @@ export default function ProjectsPage() {
                   {domain.name}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="flex-grow">
+              <CardContent className="flex-grow flex flex-col items-center justify-center text-center">
                 <p className="text-muted-foreground">
                   Explore projects in {domain.name}.
                 </p>

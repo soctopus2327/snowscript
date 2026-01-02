@@ -19,7 +19,9 @@ export default function PrizesPage() {
               key={prize.category}
               className={`flex transform flex-col text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl w-full max-w-sm ${
                 index === 0 ? 'lg:col-span-3' : ''
-              } ${index === 1 || index === 2 ? 'lg:col-span-1' : ''}`}
+              } ${
+                index === prizes.length -1 ? 'md:col-span-2 lg:col-span-3' : ''
+              }`}
             >
               <CardHeader className="items-center">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent text-accent-foreground">
