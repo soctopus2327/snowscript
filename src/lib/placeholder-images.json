@@ -1,3 +1,10 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "about-gdg",
+      "description": "A group of diverse people collaborating around a table with laptops.",
+      "imageUrl": "https://images.unsplash.com/photo-1472653431158-6364773b2a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21tdW5pdHklMjBldmVudHxlbnwwfHx8fDE3NjczMjA5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community event"
+    }
+  ]
 }
