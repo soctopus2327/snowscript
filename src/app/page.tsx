@@ -29,7 +29,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 items-center gap-12 px-6 md:grid-cols-2 md:px-24">
           <div className="space-y-6 text-center md:text-left">
             <div className="flex justify-center md:justify-start">
-              <GdgLogo className="h-16 w-48" />
+              <GdgLogo className="w-90 " />
             </div>
             <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
               SnowScript
