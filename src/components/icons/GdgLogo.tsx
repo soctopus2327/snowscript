@@ -1,16 +1,14 @@
-export function GdgLogo(props: React.SVGProps<SVGSVGElement>) {
+import Image from 'next/image';
+
+export function GdgLogo(props: { className?: string }) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 258 116"
-      aria-label="GDG Logo"
-      {...props}
-    >
-      <path fill="#4285F4" d="M37 79h32v37H37z" />
-      <path fill="#0F9D58" d="M110 79h32v37h-32z" />
-      <path fill="#F4B400" d="M182 79h32v37h-32z" />
-      <path fill="#DB4437" d="M0 42h142v37H0z" />
-      <path fill="#DB4437" d="M116 0h142v37H116z" />
-    </svg>
+    <div className={props.className} style={{ position: 'relative' }}>
+      <Image
+        src="/gdg.png"
+        alt="GDG Logo"
+        layout="fill"
+        objectFit="contain"
+      />
+    </div>
   );
 }
