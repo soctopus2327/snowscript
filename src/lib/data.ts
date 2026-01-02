@@ -93,27 +93,27 @@ export const projectDomains: ProjectDomain[] = [
 
 export const timeline: TimelineEvent[] = [
     {
-      date: 'December 1, 2024',
+      date: 'January 5, 2026',
       title: 'Registration Opens',
       description: 'Sign up to participate in the Winter of Code.',
     },
     {
-      date: 'December 15, 2024',
+      date: 'January 9, 2026',
       title: 'Opening Ceremony',
       description: 'Official kickoff of the event with project announcements.',
     },
     {
-      date: 'December 16, 2024',
+      date: 'January 10, 2026',
       title: 'Coding Period Begins',
       description: 'Start contributing to your chosen projects.',
     },
     {
-      date: 'January 15, 2025',
+      date: 'February 10, 2026',
       title: 'Coding Period Ends',
       description: 'Final day for pull requests and contributions.',
     },
     {
-      date: 'January 25, 2025',
+      date: 'March, 2026',
       title: 'Closing Ceremony & Winners Announcement',
       description: 'Announcement of winners and closing remarks.',
     },
@@ -144,28 +144,28 @@ export const timeline: TimelineEvent[] = [
 
   export const prizes: Prize[] = [
     {
-      category: 'Overall Top Contributor',
-      description: 'Awarded to the individual with the most impactful contributions across all projects.',
+      category: 'Top 3 Contributors',
+      description: 'Awarded to the 3 people with the most number of impactful contributions across all projects.',
       icon: Crown,
     },
     {
-      category: 'Best Project',
-      description: 'Given to the project team that demonstrates exceptional innovation and execution.',
+      category: 'Top 5 Female Contributors',
+      description: 'Given to the Top 5 females that demonstrated exceptional number and quality of contribution.',
       icon: Trophy,
     },
     {
-      category: 'Rising Star',
-      description: 'Recognizing the most promising newcomer to the world of open source.',
+      category: 'Top 10 Contirbutors',
+      description: 'Specially goodies and certificates for being enthusiastic contributors to oepn source.',
       icon: Star,
     },
     {
-      category: 'Community Champion',
-      description: 'For the participant who has shown outstanding support and mentorship to others.',
+      category: 'Top 20 Contributors',
+      description: 'For the participant who sttod, certificates of appreciation and goodies.',
       icon: Award,
     },
     {
-      category: 'Domain Expert',
-      description: 'Awarded to top contributors in each of the 8 project domains.',
+      category: 'All Contirbutors',
+      description: 'Certificate of appreciation for your first succesful pull request.',
       icon: Gem,
     }
   ]
