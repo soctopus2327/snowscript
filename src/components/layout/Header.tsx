@@ -25,7 +25,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <GdgLogo2 className="h-8" />
           <span className="font-headline text-lg font-semibold tracking-tight">
-            SnowScript
+            SnowScript <span className="text-primary">Winter Of Code</span>
           </span>
         </Link>
         <nav className="hidden md:flex md:items-center md:gap-6">
