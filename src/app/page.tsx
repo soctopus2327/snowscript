@@ -48,7 +48,7 @@ export default function Home() {
               loop
               muted
               playsInline
-              src="https://www.w3schools.com/html/mov_bbb.mp4" 
+              src="/snowflake.mp4" 
             />
           </div>
         </div>
