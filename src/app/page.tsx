@@ -117,12 +117,12 @@ export default function Home() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline">
-                    <Link href="#" target="_blank">
+                    <Link href="https://discord.gg/tFjTMrVE" target="_blank">
                       <DiscordIcon className="mr-2" /> Discord
                     </Link>
                   </Button>
                   <Button asChild variant="outline">
-                    <Link href="#" target="_blank">
+                    <Link href="https://www.instagram.com/gdg_igdtuw/?hl=en" target="_blank">
                       <Instagram className="mr-2" /> Instagram
                     </Link>
                   </Button>
