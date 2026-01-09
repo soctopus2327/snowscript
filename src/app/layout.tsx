@@ -8,6 +8,9 @@ import { Snowfall } from '@/components/layout/Snowfall';
 export const metadata: Metadata = {
   title: 'SnowScript: Winter of Code',
   description: 'SnowScript Winter of Code event organized by GDG.',
+  icons: {
+    icon: '/gdg_logo2.png',
+  },
 };
 
 export default function RootLayout({

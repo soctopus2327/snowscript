@@ -8,8 +8,10 @@ export function Footer() {
   return (
     <footer className="w-full border-t bg-primary/10">
       <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-6 py-8 md:flex-row md:px-8">
-        <div className="flex flex-col items-center gap-4 text-center md:flex-row md:gap-3 md:text-left">
-          <GdgLogo className="h-12 w-32" />
+        {/* <div className="flex flex-col items-center gap-4 text-center md:flex-row md:gap-3 md:text-left">
+          <GdgLogo className="h-12 w-32" /> */}
+        <div className="flex items-center gap-3">
+          <GdgLogo className="h-12" />
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} GDG. All rights reserved.
           </p>
