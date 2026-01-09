@@ -105,8 +105,12 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'ui-ux',
     icon: Palette,
     projects: [
-      { name: 'Design System for GDG', description: 'Create a reusable component library and design system.', contributeUrl: '#' },
-      { name: 'App Redesign Challenge', description: 'Redesign and improve the user experience of an existing application.', contributeUrl: '#' },
+      { name: 'EcoCart', description: 'EcoCart is a mobile application designed to help users track their carbon footprint, make eco-friendly purchasing decisions, and stay motivated through rewards and insights.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/ECOCART' },
+      { name: 'Eklavya', description: 'Eklavya is a student-centric learning and support platform designed to help school and college learners manage academics, build strong peer networks, and access personalized guidance.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/Eklavya' },
+      { name: 'GreenPulse', description: 'GreenPulse is a smart product-impact analyzer that helps environmentally conscious shoppers understand the sustainability impact of everyday products.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/GreenPulse' },
+      { name: 'Packify', description: 'Packify is a web-based platform that helps optimize packaging box sizes to increase transportation efficiency.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/Packify' },
+      { name: 'ShopIt', description: 'ShopIt is a local marketplace shopping and delivery platform designed to connect nearby businesses with customers through a seamless digital experience.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/ShopIt' },
+      { name: 'Mindfullness App', description: 'This is a mindfulness and wellness app designed to help users reduce stress and improve sleep through guided meditations, calming sleep sounds, breathing exercises, and counseling support.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/mindfullness%20app' },
     ],
   },
 ];
