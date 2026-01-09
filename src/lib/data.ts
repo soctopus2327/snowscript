@@ -133,23 +133,23 @@ export const projectDomains: ProjectDomain[] = [
 
 export const timeline: TimelineEvent[] = [
     {
-      date: 'January 5, 2026',
+      date: 'January 17, 2026',
       title: 'Registration Opens',
       description: 'Sign up to participate in the Winter of Code.',
     },
     {
-      date: 'January 9, 2026',
+      date: 'January 17, 2026',
       title: 'Opening Ceremony',
       description: 'Official kickoff of the event with project announcements.',
     },
     {
-      date: 'January 10, 2026',
-      title: 'Coding Period Begins',
+      date: 'January 18, 2026',
+      title: 'Contribution Period Begins',
       description: 'Start contributing to your chosen projects.',
     },
     {
-      date: 'February 10, 2026',
-      title: 'Coding Period Ends',
+      date: 'February 26, 2026',
+      title: 'Contribution Period Ends',
       description: 'Final day for pull requests and contributions.',
     },
     {
