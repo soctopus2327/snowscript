@@ -22,7 +22,7 @@ export const projectDomains: ProjectDomain[] = [
     projects: [
       { name: 'AR Birthday Card', description: 'The goal is to create an Augmented Reality (AR) Birthday Greeting Card that provides an interactive and engaging experience for the user using Unity and Vuforia', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/AR%20Birthday%20Card' },
       { name: 'Taarangana’26 3D Reel', description: 'This is an open-source Blender modeling project for a dreamy vertical (9:16) cinematic reel made for the college fest Taarangana’26.', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/Taarangana%E2%80%9926%20%E2%80%94%203D%20Announcement%20Reel' },
-      { name: 'Taarangana’26 3D Reel', description: 'This is an open-source Blender modeling initiative to build a single combined 3D model set  representing all GDG domains as buildings', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/3D%20Domain%20City%20Model%20Project' },
+      { name: '3D Domain City Model', description: 'This is an open-source Blender modeling initiative to build a single combined 3D model set  representing all GDG domains as buildings', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/3D%20Domain%20City%20Model%20Project' },
     ],
   },
   {
@@ -33,7 +33,7 @@ export const projectDomains: ProjectDomain[] = [
       { name: 'VibeLift', description: 'A bot that analyzes and reports the sentiment of social media posts.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/VibeLift' },
       { name: 'CineSync', description: 'CineSync is a simple movie recommendation tool that helps users find movies similar to their favorites.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/CineSync' },
       { name: 'Compare AI', description: 'This project detects similarity between two text documents to identify potential plagiarism. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Compare%20AI' },
-      { name: 'Moodify', description: 'A web application built with Streamlit and scikit-learn that classifies the dominant emotion (e.g., joy, sadness, anger) from song lyrics and suggests related songs from a database with the same predicted 'vibe'.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Moodify' },
+      { name: 'Moodify', description: 'A web application built with Streamlit and scikit-learn that classifies the dominant emotion (e.g., joy, sadness, anger) from song lyrics and suggests related songs from a database with the same predicted vibe.' , contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Moodify' },
       { name: 'Mythos AI', description: 'A machine learning project that predicts the main genre of a book using only its title.  ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Mythos%20AI' },
       { name: 'NINA (News Intelligence Neural Analyzer)', description: 'NINA is a smart news verification tool that classifies articles as real or fake using state-of-the-art NLP embeddings and machine learning. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/NINA' },
       { name: 'ReMixRecipe', description: 'ReMixRecipe is a tool that helps you figure out what cuisine you can cook using the ingredients you already have. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/ReMixRecipe' },
