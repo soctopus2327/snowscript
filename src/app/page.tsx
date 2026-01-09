@@ -112,7 +112,7 @@ export default function Home() {
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Button asChild variant="outline">
-                    <Link href="#" target="_blank">
+                    <Link href="https://chat.whatsapp.com/DAci48ElBXrAWtadPgHw63" target="_blank">
                       <MessageCircle className="mr-2" /> WhatsApp
                     </Link>
                   </Button>
