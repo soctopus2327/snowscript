@@ -20,8 +20,9 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'ar-vr',
     icon: View,
     projects: [
-      { name: 'AR Campus Navigator', description: 'Navigate your campus with augmented reality overlays.', contributeUrl: '#' },
-      { name: 'VR Museum Tour', description: 'Experience museum exhibits from the comfort of your home.', contributeUrl: '#' },
+      { name: 'AR Birthday Card', description: 'The goal is to create an Augmented Reality (AR) Birthday Greeting Card that provides an interactive and engaging experience for the user using Unity and Vuforia', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/AR%20Birthday%20Card' },
+      { name: 'Taarangana’26 3D Reel', description: 'This is an open-source Blender modeling project for a dreamy vertical (9:16) cinematic reel made for the college fest Taarangana’26.', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/Taarangana%E2%80%9926%20%E2%80%94%203D%20Announcement%20Reel' },
+      { name: 'Taarangana’26 3D Reel', description: 'This is an open-source Blender modeling initiative to build a single combined 3D model set  representing all GDG domains as buildings', contributeUrl: 'https://github.com/GDG-IGDTUW/AR-VR/tree/main/3D%20Domain%20City%20Model%20Project' },
     ],
   },
   {
