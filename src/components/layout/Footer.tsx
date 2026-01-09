@@ -18,19 +18,19 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-2">
            <Button asChild variant="ghost" size="icon">
-              <Link href="#" target="_blank">
+              <Link href="https://chat.whatsapp.com/DAci48ElBXrAWtadPgHw63" target="_blank">
                 <MessageCircle className="h-5 w-5 text-muted-foreground" />
                 <span className="sr-only">WhatsApp</span>
               </Link>
             </Button>
             <Button asChild variant="ghost" size="icon">
-              <Link href="#" target="_blank">
+              <Link href="https://discord.gg/tFjTMrVE" target="_blank">
                 <DiscordIcon className="h-5 w-5 text-muted-foreground" />
                 <span className="sr-only">Discord</span>
               </Link>
             </Button>
             <Button asChild variant="ghost" size="icon">
-              <Link href="#" target="_blank">
+              <Link href="https://www.instagram.com/gdg_igdtuw/?hl=en" target="_blank">
                 <Instagram className="h-5 w-5 text-muted-foreground" />
                 <span className="sr-only">Instagram</span>
               </Link>
