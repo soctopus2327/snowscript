@@ -30,9 +30,15 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'ai-ml',
     icon: BrainCircuit,
     projects: [
-      { name: 'Sentiment Analysis Bot', description: 'A bot that analyzes and reports the sentiment of social media posts.', contributeUrl: '#' },
-      { name: 'Image Recognition API', description: 'An API to identify objects in images.', contributeUrl: '#' },
-      { name: 'Code Review Assistant', description: 'An AI tool to automatically review and suggest improvements for code.', contributeUrl: '#' },
+      { name: 'VibeLift', description: 'A bot that analyzes and reports the sentiment of social media posts.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/VibeLift' },
+      { name: 'CineSync', description: 'CineSync is a simple movie recommendation tool that helps users find movies similar to their favorites.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/CineSync' },
+      { name: 'Compare AI', description: 'This project detects similarity between two text documents to identify potential plagiarism. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Compare%20AI' },
+      { name: 'Moodify', description: 'A web application built with Streamlit and scikit-learn that classifies the dominant emotion (e.g., joy, sadness, anger) from song lyrics and suggests related songs from a database with the same predicted 'vibe'.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Moodify' },
+      { name: 'Mythos AI', description: 'A machine learning project that predicts the main genre of a book using only its title.  ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Mythos%20AI' },
+      { name: 'NINA (News Intelligence Neural Analyzer)', description: 'NINA is a smart news verification tool that classifies articles as real or fake using state-of-the-art NLP embeddings and machine learning. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/NINA' },
+      { name: 'ReMixRecipe', description: 'ReMixRecipe is a tool that helps you figure out what cuisine you can cook using the ingredients you already have. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/ReMixRecipe' },
+      { name: 'ResuMatch', description: 'ResuMatch is a simple, beginner-friendly web application designed to help job seekers optimize their resumes. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/ResuMatch' },
+      { name: 'Seqnet', description: 'Seqnet is a deep learning–based text generation project that predicts the next word in a sequence using an LSTM neural network built with TensorFlow and Keras.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Seqnet' },
     ],
   },
   {
@@ -40,7 +46,7 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'app-dev',
     icon: Smartphone,
     projects: [
-      { name: 'Community Event App', description: 'An app for discovering and joining local tech events.', contributeUrl: '#' },
+      { name: 'Community Event App', description: 'VibeLift is a polished, tablet-inspired web application designed to help users track and improve their emotional well-being.', contributeUrl: '#' },
       { name: 'Fitness Tracker', description: 'Track your workouts and daily activity.', contributeUrl: '#' },
     ],
   },
