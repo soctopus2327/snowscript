@@ -24,7 +24,7 @@ export function Footer() {
               </Link>
             </Button>
             <Button asChild variant="ghost" size="icon">
-              <Link href="https://discord.gg/tFjTMrVE" target="_blank">
+              <Link href="https://discord.gg/vwsMEn5DgM" target="_blank">
                 <DiscordIcon className="h-5 w-5 text-muted-foreground" />
                 <span className="sr-only">Discord</span>
               </Link>
