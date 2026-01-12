@@ -204,6 +204,11 @@ export const timeline: TimelineEvent[] = [
       icon: Award,
     },
     {
+      category: 'Top 10 Blockchain Contributors',
+      description: 'For the blockchain whizzes, a special NFT shaped prize awaits.',
+      icon: Award,
+    },
+    {
       category: 'All Contirbutors',
       description: 'Certificate of appreciation for your first succesful pull request.',
       icon: Gem,
