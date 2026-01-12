@@ -108,12 +108,19 @@ export const projectDomains: ProjectDomain[] = [
     ],
   },
   {
-    name: 'Technical Writing',
-    slug: 'tech-writing',
+    name: 'Interview Preparation',
+    slug: 'interview-prep',
     icon: FileText,
     projects: [
-      { name: 'Documentation for Open Source', description: 'Contribute high-quality documentation to popular open-source projects.', contributeUrl: '#' },
-      { name: 'Tech Blog Contribution', description: 'Write and publish articles on our official tech blog.', contributeUrl: '#' },
+      { name: 'Arrays', description: 'Solve some interview style array questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Arrays' },
+      { name: 'DBMS', description: 'Solve some interview style database management system questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/dbms' },
+      { name: 'Graphs', description: 'Solve some interview style graph questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Graphs' },
+      { name: 'Prompt Engineering', description: 'Contribute some prompt engineering solutions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Prompt%20Engineering' },
+      { name: 'SDLC', description: 'Solve some interview style software development cycle questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/SDLC-%20Development%20and%20Testing%20Phases%20of%20SDLC' },
+      { name: 'Stacks', description: 'Solve some interview style stacks questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Stacks' },
+      { name: 'Time and Space Complexity', description: 'Solve some interview style time and space complexity questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Time%20and%20Space%20Complexity' },
+      { name: 'Trees', description: 'Solve some interview style trees questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/Trees' },
+      { name: 'Pandas', description: 'Solve some interview style pandas questions.', contributeUrl: 'https://github.com/GDG-IGDTUW/Technical-Writing/tree/main/pandas' },
     ],
   },
   {
