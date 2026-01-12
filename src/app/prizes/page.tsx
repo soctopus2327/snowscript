@@ -13,15 +13,11 @@ export default function PrizesPage() {
             Your hard work and dedication will be rewarded.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+        <div className="mt-12 flex flex-wrap justify-center gap-8">
           {prizes.map((prize, index) => (
             <Card
               key={prize.category}
-              className={`flex transform flex-col text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl w-full max-w-sm ${
-                index === 0 ? 'lg:col-span-3' : ''
-              } ${
-                index === prizes.length -1 ? 'md:col-span-2 lg:col-span-3' : ''
-              }`}
+              className="flex w-full max-w-sm transform flex-col text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)]"
             >
               <CardHeader className="items-center">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent text-accent-foreground">
