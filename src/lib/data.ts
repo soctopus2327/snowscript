@@ -55,9 +55,12 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'web-dev',
     icon: Code2,
     projects: [
-      { name: 'Developer Portfolio Builder', description: 'A tool to quickly generate a personal portfolio website.', contributeUrl: '#' },
-      { name: 'Real-time Chat Application', description: 'A web-based chat app using modern web technologies.', contributeUrl: '#' },
-      { name: 'E-commerce Storefront', description: 'A customizable storefront for online shops.', contributeUrl: '#' },
+      { name: 'DigiRep', description: 'The Digital Class Representative (Digital CR) system is a university management platform designed for IGDTUW students, Class Representatives (CRs), and society heads.', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-1/tree/main/DigiRep' },
+      { name: 'TaskFlow', description: 'TaskFlow is a simple and intuitive task management application built with vanilla HTML, CSS, and JavaScript. ', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-1/tree/main/TaskFlow' },
+      { name: 'AlgoEase', description: 'AlgoEase is an AI‑assisted platform for learning Data Structures & Algorithms (DSA).', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-2/tree/main/AlgoEase' },
+      { name: 'Bloom Quest', description: 'BloomQuest transforms personal growth into a gardening game. As users complete real-life habits, focus sessions, and daily challenges, they earn XP and Coins to nurture a virtual plant.', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-2/tree/main/Bloom-Quest' },
+      { name: 'PixelPro', description: 'PixelPro is an AI-powered UI component generator. Describe what you want, get production-ready code in HTML, Tailwind CSS, or React.', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-2/tree/main/PixelPro' },
+      { name: 'Planora', description: 'Planora helps users structure their study routine by organizing tasks across time and supporting deep-focus work sessions. ', contributeUrl: 'https://github.com/GDG-IGDTUW/Web-Dev-2/tree/main/Planora' },
     ],
   },
   {
