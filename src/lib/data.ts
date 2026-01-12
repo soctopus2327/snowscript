@@ -12,6 +12,7 @@ import {
   Award,
   Gem,
   Star,
+  Blocks,
 } from 'lucide-react';
 
 export const projectDomains: ProjectDomain[] = [
@@ -138,6 +139,12 @@ export const projectDomains: ProjectDomain[] = [
       { name: 'ShopIt', description: 'ShopIt is a local marketplace shopping and delivery platform designed to connect nearby businesses with customers through a seamless digital experience.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/ShopIt' },
       { name: 'Mindfullness App', description: 'This is a mindfulness and wellness app designed to help users reduce stress and improve sleep through guided meditations, calming sleep sounds, breathing exercises, and counseling support.', contributeUrl: 'https://github.com/GDG-IGDTUW/UI-UX-1/tree/main/mindfullness%20app' },
     ],
+  },
+  {
+    name: 'Blockchain',
+    slug: 'blockchain',
+    icon: Blocks,
+    projects: [],
   },
 ];
 
