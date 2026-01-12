@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { projectDomains } from '@/lib/data';
@@ -20,16 +21,16 @@ export default function ProjectsPage() {
           {projectDomains.map((domain) => (
             <Card
               key={domain.slug}
-              className="group relative flex transform flex-col overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-80"
+              className="group relative flex h-80 transform flex-col items-center justify-center overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
-              <CardHeader className="flex-row items-center gap-4">
-                <domain.icon className="h-8 w-8 text-primary" />
-                <CardTitle className="font-headline text-xl font-bold">
+              <CardHeader className="items-center justify-center p-6 text-center">
+                <domain.icon className="h-12 w-12 text-primary" />
+                <CardTitle className="font-headline mt-4 text-xl font-bold">
                   {domain.name}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="flex-grow flex flex-col items-center justify-center text-center">
-                <p className="text-muted-foreground">
+              <CardContent className="p-0">
+                <p className="text-muted-foreground text-center px-4">
                   Explore projects in {domain.name}.
                 </p>
               </CardContent>
