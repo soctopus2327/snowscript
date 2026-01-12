@@ -46,8 +46,8 @@ export const projectDomains: ProjectDomain[] = [
     slug: 'app-dev',
     icon: Smartphone,
     projects: [
-      { name: 'Community Event App', description: 'VibeLift is a polished, tablet-inspired web application designed to help users track and improve their emotional well-being.', contributeUrl: '#' },
-      { name: 'Fitness Tracker', description: 'Track your workouts and daily activity.', contributeUrl: '#' },
+      { name: 'LeakSense', description: 'LeakSense is a Flutter-based consumer application designed to detect, localize, and explain water leakage in household and commercial pipeline systems. ', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev-1/tree/main/leaksense' },
+      { name: 'SplitSmart', description: 'Flutter bill splitting app with AI-powered receipt scanning, tip calculator, and beautiful UI.', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev-1/tree/main/splitsmart' },
     ],
   },
   {
