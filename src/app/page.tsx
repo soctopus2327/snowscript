@@ -117,7 +117,7 @@ export default function Home() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline">
-                    <Link href="https://discord.gg/tFjTMrVE" target="_blank">
+                    <Link href="https://discord.gg/vwsMEn5DgM" target="_blank">
                       <DiscordIcon className="mr-2" /> Discord
                     </Link>
                   </Button>
