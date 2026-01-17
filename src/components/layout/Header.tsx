@@ -44,7 +44,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-4">
           <Button className="hidden md:inline-flex" asChild>
-            <Link href="/#register">Register Now</Link>
+            <Link href="https://www.commudle.com/fill-form/4375" target="_blank">Register Now</Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
             <SheetTrigger asChild>
@@ -81,7 +81,7 @@ export function Header() {
                   ))}
                 </nav>
                 <Button className="mt-auto" asChild>
-                  <Link href="/#register" onClick={() => setSheetOpen(false)}>
+                  <Link href="https://www.commudle.com/fill-form/4375" target="_blank" onClick={() => setSheetOpen(false)}>
                     Register Now
                   </Link>
                 </Button>
