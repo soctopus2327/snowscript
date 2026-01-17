@@ -70,7 +70,7 @@ export default function Home() {
             className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90"
             asChild
           >
-            <Link href="#">
+            <Link href="https://www.commudle.com/fill-form/4375">
               Register Now <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
