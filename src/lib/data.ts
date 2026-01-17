@@ -55,6 +55,8 @@ export const projectDomains: ProjectDomain[] = [
     projects: [
       { name: 'LeakSense', description: 'LeakSense is a Flutter-based consumer application designed to detect, localize, and explain water leakage in household and commercial pipeline systems. ', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev-1/tree/main/leaksense' },
       { name: 'SplitSmart', description: 'Flutter bill splitting app with AI-powered receipt scanning, tip calculator, and beautiful UI.', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev-1/tree/main/splitsmart' },
+      { name: 'AfterHours', description: 'AfterHours is a Flutter-based reflection app that helps users talk about their day through simple, story-style prompts.', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev/tree/main/afterhours' },
+      { name: 'Crime Scene Learning Hub', description: 'Crime Scene Learning Hub is an open-source Flutter application that explains complex concepts using a crime-investigation metaphor. ', contributeUrl: 'https://github.com/GDG-IGDTUW/Mobile-Dev/tree/main/crime_scene_learning_hub' },
     ],
   },
   {
