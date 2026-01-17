@@ -40,6 +40,12 @@ export const projectDomains: ProjectDomain[] = [
       { name: 'ReMixRecipe', description: 'ReMixRecipe is a tool that helps you figure out what cuisine you can cook using the ingredients you already have. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/ReMixRecipe' },
       { name: 'ResuMatch', description: 'ResuMatch is a simple, beginner-friendly web application designed to help job seekers optimize their resumes. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/ResuMatch' },
       { name: 'Seqnet', description: 'Seqnet is a deep learning–based text generation project that predicts the next word in a sequence using an LSTM neural network built with TensorFlow and Keras.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-1/tree/main/Seqnet' },
+      { name: 'WhatsApp Chat Analyser', description: 'A production-ready data analytics web app that transforms raw WhatsApp chat exports into meaningful behavioral and social insights. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/Whatsapp-Chat-Analyser-main' },
+      { name: 'Banking Fraud Detection', description: 'A behavior-based Android Intrusion Detection System designed to identify suspicious and malicious activities on Android devices using digital forensic techniques and machine learning. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/banking-fraud-detection' },
+      { name: 'SMS Phishing Detection', description: 'This project aims to detect and investigate phishing SMS messages using natural language processing and digital forensics. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/sms_phising_detection' },
+      { name: 'Smile-Cam', description: 'A real-time computer vision photobooth built with React and Flask that automatically captures photos when users smile. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/smile_cam' },
+      { name: 'QuantWise', description: 'A modern portfolio analysis platform built with React and Flask that turns raw market data into actionable financial intelligence.', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/quant_finance' },
+      { name: 'Android Malware Detection', description: 'This project focuses on detecting malicious Android applications through static forensic analysis and machine learning. ', contributeUrl: 'https://github.com/GDG-IGDTUW/AI-ML-2/tree/main/malware_detection' },
     ],
   },
   {
