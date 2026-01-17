@@ -144,7 +144,9 @@ export const projectDomains: ProjectDomain[] = [
     name: 'Blockchain',
     slug: 'blockchain',
     icon: Blocks,
-    projects: [],
+    projects: [
+      {name: 'CIRCLE', description: 'CIRCLE is a next-generation SocialFi platform built on the EVM-compatible HeLa blockchain, designed to merge the familiarity of Web2 social media with the ownership, incentives, and transparency of Web3.', contributeUrl: 'https://github.com/GDG-IGDTUW/Blockchain'},
+    ],
   },
 ];
 
